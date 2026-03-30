@@ -27,8 +27,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/-/project/29180/uploads/3b44e2c1318a7e826f4d9794f1a6fd87/wildcard-0.3.4.tar.xz",
-                    "sha256" : "2c4625965e595370a2e843f53dbaef4ce9ccbc9f0587f047368a5e2adc2d8b86"
+		    "url" : "https://gitlab.gnome.org/-/project/29180/uploads/90cfecffc029379df536b0f0040a79d0/wildcard-0.3.5.tar.xz",
+                    "sha256" : "53f7b30907e68bd2482511098c511a9b6eabdf8b04a9d7da79e1d16731c7864a"
                 }
             ]
         }
