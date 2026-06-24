@@ -1,34 +1,34 @@
 {
-    "id" : "net.ffkkinos.Wildcard",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
-    "sdk" : "org.gnome.Sdk",
-    "sdk-extensions" : [
+    "id": "net.ffkkinos.Wildcard",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "wildcard",
-    "finish-args" : [
+    "command": "wildcard",
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
-    "modules" : [
+    "modules": [
         {
-            "name" : "wildcard",
-            "builddir" : true,
-            "buildsystem" : "meson",
-		    "config-opts" : [
-				"-Dbuildtype=release"
-		    ],
-            "sources" : [
+            "name": "wildcard",
+            "builddir": true,
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuildtype=release"
+            ],
+            "sources": [
                 {
-                    "type" : "archive",
-		    "url" : "https://gitlab.gnome.org/-/project/29180/uploads/90cfecffc029379df536b0f0040a79d0/wildcard-0.3.5.tar.xz",
-                    "sha256" : "53f7b30907e68bd2482511098c511a9b6eabdf8b04a9d7da79e1d16731c7864a"
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/-/project/29180/uploads/90cfecffc029379df536b0f0040a79d0/wildcard-0.3.5.tar.xz",
+                    "sha256": "53f7b30907e68bd2482511098c511a9b6eabdf8b04a9d7da79e1d16731c7864a"
                 }
             ]
         }
